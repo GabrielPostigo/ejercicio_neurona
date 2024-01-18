@@ -4,11 +4,12 @@ import pandas as pd
 
 # src_ima = "https://cerebriti.b-cdn.net/uploads/897d9983bb5cd413ce50cdbbdcfe75c2.jpg"
 
-tab1, tab2, tab3 = st.tabs(["Una Entrada", "Dos Entradas", "Tres Entradas y Sesgo"])
 
 st.image('imagen_neurona.jpg', caption=None)
 
 st.title('!Hola neurona¡')
+
+tab1, tab2, tab3 = st.tabs(["Una Entrada", "Dos Entradas", "Tres Entradas y Sesgo"])
 
 with tab1:
     # st.markdown('Peso w<sub>0</sub>', unsafe_allow_html=True)
