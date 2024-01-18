@@ -27,13 +27,13 @@ with tab2:
         st.markdown('Peso w<sub>0</sub>', unsafe_allow_html=True)
         w01 = st.slider('s1',0.0,5.0, label_visibility='collapsed')
         st.markdown('Entrada x<sub>0</sub>', unsafe_allow_html=True)
-        x01 = st.number_input('i1',step=1)
+        x01 = st.number_input('i1',label_visibility="collapsed")
     
     with col2:
         st.markdown('Peso w<sub>1</sub>', unsafe_allow_html=True)
         w1 = st.slider('s2',0.0,5.0, label_visibility='collapsed')
         st.markdown('Peso x<sub>1</sub>', unsafe_allow_html=True)
-        x1 = st.number_input('i2',step=1)
+        x1 = st.number_input('i2',label_visibility="collapsed")
     
     y1 = (w01*x01)+(w1*x1)
 
@@ -47,19 +47,19 @@ with tab3:
         st.markdown('Peso w<sub>0</sub>', unsafe_allow_html=True)
         w02 = st.slider('s3',0.0,5.0, label_visibility='collapsed')
         st.markdown('Entrada x<sub>0</sub>', unsafe_allow_html=True)
-        x02 = st.number_input('i3',step=1)
+        x02 = st.number_input('i3',label_visibility="collapsed")
     
     with col21:
         st.markdown('Peso w<sub>1</sub>', unsafe_allow_html=True)
         w12 = st.slider('s4',0.0,5.0, label_visibility='collapsed')
         st.markdown('Entrada x<sub>1</sub>', unsafe_allow_html=True)
-        x12 = st.number_input('i4',step=1)
+        x12 = st.number_input('i4',label_visibility="collapsed")
     
     with col3:
         st.markdown('Peso w<sub>2</sub>', unsafe_allow_html=True)
         w2 = st.slider('s5',0.0,5.0, label_visibility='collapsed')
         st.markdown('Entrada x<sub>2</sub>', unsafe_allow_html=True)
-        x2 = st.number_input('i5',step=1)
+        x2 = st.number_input('i5',label_visibility="collapsed")
 
     b = st.number_input('Introduzca el valor del sesgo')
 
