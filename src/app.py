@@ -65,4 +65,4 @@ with tab3:
     y2 = (x02*w02)+(x12*w12)+(x2*w2)+b
 
     if st.button('Calcular la salida','b3'):
-        st.text(f'La salida de la neurona es {y2}')
+        st.text(f'La salida de la neurona es {y2}') 
